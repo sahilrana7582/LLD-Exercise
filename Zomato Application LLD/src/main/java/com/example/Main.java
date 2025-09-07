@@ -121,6 +121,7 @@ public class Main {
                 System.out.println("Order Type: " + orderType);
                 System.out.println("Restaurant: " + restaurant.getName());
                 System.out.println("User: " + user.getName());
+                System.out.println("Address" + user.getAddress());
                 System.out.println("Items: " + order.getItems());
                 System.out.println("Total Price: " + order.getTotalPrice());
                 System.out.println("Order ID: " + order.getId());
